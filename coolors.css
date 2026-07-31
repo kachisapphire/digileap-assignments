@@ -414,3 +414,10 @@ header {
 		letter-spacing: -1px;
 	}
 }
+
+.footer-header {
+	font-size: 90px;
+	font-weight: 700;
+	text-align: center;
+	color: #f0f0f0;
+}
