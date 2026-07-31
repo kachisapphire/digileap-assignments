@@ -175,7 +175,8 @@ header {
 }
 
 .tools-heading,
-.resource-heading {
+.resource-heading,
+.plugin-header {
 	text-transform: uppercase;
 	color: #737373;
 	font-size: 18px;
@@ -390,5 +391,26 @@ header {
 		color: gray;
 		font-weight: 450;
 		letter-spacing: 0.5px;
+	}
+}
+
+.homepage_plugins {
+	display: grid;
+	grid-template-columns: repeat(3, 420px);
+	justify-content: center;
+	padding: 30px 100px;
+	gap: 25px;
+	margin-bottom: 80px;
+
+	a {
+		text-decoration: none;
+		background-color: #f0f0f0;
+		padding: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: black;
+		font-size: 3px;
+		font-weight: 800;
+		letter-spacing: -1px;
 	}
 }
