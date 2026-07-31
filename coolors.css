@@ -161,8 +161,7 @@ header {
 	}
 }
 
-.testimonials,
-.tools {
+.testimonials {
 	p {
 		text-transform: uppercase;
 		color: #737373;
@@ -173,6 +172,17 @@ header {
 		text-align: center;
 		padding-bottom: 40px;
 	}
+}
+
+.tools-heading {
+	text-transform: uppercase;
+	color: #737373;
+	font-size: 18px;
+	letter-spacing: 3px;
+	line-height: 1px;
+	font-weight: 500;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 .logo-slide {
@@ -206,8 +216,8 @@ header {
 
 .hero-paragraph {
 	display: flex;
-	justify-content: space-evenly;
-	gap: 30px;
+	justify-content: center;
+	gap: 40px;
 	align-items: flex-end;
 	margin: 40px;
 	padding: 30px 100px;
@@ -224,9 +234,9 @@ header {
 	background-color: #f5f5f5;
 	border-radius: 20px;
 	align-items: center;
-	gap: 20px;
+	gap: 30px;
 	width: 550px;
-	padding: 15px 10px;
+	padding: 15px 20px;
 	transition: all 0.3s ease-out, box-shadow 0.3s ease;
 }
 
@@ -256,11 +266,91 @@ header {
 
 .homepage_tools {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 420px);
 	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: center;
 	padding: 30px 100px;
+	gap: 12px;
 
+	h1 {
+		font-size: 55px;
+		font-weight: 800;
+		margin: 0;
+	}
+
+	p {
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 0;
+	}
 	img {
 		width: 20px;
 	}
+}
+
+.cyan {
+	background-color: #cffafe;
+	color: #1c9bb9;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.blue {
+	background-color: #dbeafe;
+	color: #2563eb;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.purple {
+	background-color: #f3e8ff;
+	color: #9333ea;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.pink {
+	background-color: #fce7f3;
+	color: #db2777;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.red {
+	background-color: #fee2e2;
+	color: #dc2626;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.orange {
+	background-color: #ffedd5;
+	color: #ea580c;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.yellow {
+	background-color: #fef9c3;
+	color: #ca8a04;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.green {
+	background-color: #dcfce7;
+	color: #16a34a;
+	padding: 40px 20px 30px 50px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.arrow {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
