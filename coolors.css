@@ -404,12 +404,12 @@ header {
 
 	a {
 		text-decoration: none;
-		background-color: #f0f0f0;
-		padding: 40px;
+		border: 2px solid #f0f0f0;
+		padding: 30px 40px;
 		border-radius: 20px;
 		text-align: center;
 		color: black;
-		font-size: 3px;
+		font-size: 35px;
 		font-weight: 800;
 		letter-spacing: -1px;
 	}
