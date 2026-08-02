@@ -165,7 +165,7 @@ header {
 	p {
 		text-transform: uppercase;
 		color: #737373;
-		font-size: 18px;
+		font-size: 15px;
 		letter-spacing: 3px;
 		line-height: 1px;
 		font-weight: 500;
@@ -176,10 +176,11 @@ header {
 
 .tools-heading,
 .resource-heading,
-.plugin-header {
+.plugin-header,
+.footer_cat-title {
 	text-transform: uppercase;
 	color: #737373;
-	font-size: 18px;
+	font-size: 15px;
 	letter-spacing: 3px;
 	line-height: 1px;
 	font-weight: 500;
@@ -220,13 +221,14 @@ header {
 	display: flex;
 	justify-content: center;
 	gap: 40px;
-	align-items: flex-end;
+	align-items: center;
 	margin: 40px;
 	padding: 30px 100px;
 
 	#para-text {
-		width: 750px;
-		font-size: 25px;
+		flex: 1;
+		max-width: 600px;
+		font-size: 18px;
 		font-weight: 400;
 	}
 }
@@ -239,7 +241,7 @@ header {
 	gap: 30px;
 	width: 550px;
 	padding: 15px 20px;
-	transition: all 0.3s ease-out, box-shadow 0.3s ease;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
 }
 
 .color-text {
@@ -261,9 +263,8 @@ header {
 }
 
 .color-of-the-day:hover {
-	border: 2px solid #737373;
-	transform: translateY(-10px);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	border: 2px solid #d9d9d9;
+	transform: scale(1.05);
 }
 
 .homepage_tools {
@@ -297,6 +298,13 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+
+.cyan:hover {
+	background-color: #06b6d4;
+	color: white;
+	transform: scale(1.05);
 }
 
 .blue {
@@ -305,6 +313,12 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+.blue:hover {
+	background-color: #dbeafe;
+	color: white;
+	transform: scale(1.05);
 }
 .purple {
 	background-color: #f3e8ff;
@@ -312,6 +326,13 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+
+.purple:hover {
+	background-color: #a855f7;
+	color: white;
+	transform: scale(1.05);
 }
 
 .pink {
@@ -320,6 +341,13 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+
+.pink:hover {
+	background-color: #ec4899;
+	color: white;
+	transform: scale(1.05);
 }
 
 .red {
@@ -328,6 +356,13 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+
+.red:hover {
+	background-color: #ef4545;
+	color: white;
+	transform: scale(1.05);
 }
 
 .orange {
@@ -336,6 +371,13 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+
+.orange:hover {
+	background-color: #f97316;
+	color: white;
+	transform: scale(1.05);
 }
 .yellow {
 	background-color: #fef9c3;
@@ -343,6 +385,12 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+.yellow:hover {
+	background-color: #fef9c3;
+	color: white;
+	transform: scale(1.05);
 }
 .green {
 	background-color: #dcfce7;
@@ -350,6 +398,12 @@ header {
 	padding: 40px 20px 30px 50px;
 	border-radius: 20px;
 	text-decoration: none;
+	transition: all 0.3s ease-out, border-color 0.3s ease;
+}
+.green:hover {
+	background-color: #22c55e;
+	color: white;
+	transform: scale(1.05);
 }
 
 .arrow {
@@ -372,10 +426,12 @@ header {
 		background-color: #f0f0f0;
 		padding: 40px;
 		border-radius: 20px;
+		transition: all 0.3s ease-out, border-color 0.3s ease;
 	}
 
 	a:hover {
 		background-color: #e5e5e5;
+		transform: scale(1.05);
 	}
 
 	h2 {
@@ -400,11 +456,10 @@ header {
 	justify-content: center;
 	padding: 30px 100px;
 	gap: 25px;
-	margin-bottom: 80px;
 
 	a {
 		text-decoration: none;
-		border: 2px solid #f0f0f0;
+		border: 1px solid #f0f0f0;
 		padding: 30px 40px;
 		border-radius: 20px;
 		text-align: center;
@@ -412,12 +467,138 @@ header {
 		font-size: 35px;
 		font-weight: 800;
 		letter-spacing: -1px;
+		transition: all 0.3s ease-out, border-color 0.3s ease;
+	}
+
+	a:hover {
+		border: 2px solid #d9d9d9;
+		transform: scale(1.05);
+	}
+}
+
+@media (max-width: 1264px) {
+	.homepage_plugins {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.adobe-btn {
+		grid-column: 1 / -1;
+	}
+	.homepage_resources {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#footer-header {
+		font-size: 90px;
+	}
+}
+
+@media (max-width: 845px) {
+	.homepage_plugins {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 1202px) {
+	.homepage_tools {
+		max-width: 800px;
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 992px) {
+	#footer-menu {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
 .footer-header {
-	font-size: 90px;
-	font-weight: 700;
 	text-align: center;
+	margin: 0;
+
+	p {
+		margin: 0;
+		padding: 20px 120px 50px 120px;
+		font-size: 180px;
+		font-weight: 500;
+		color: #f0f0f0;
+	}
+}
+
+.line-separator {
 	color: #f0f0f0;
+}
+
+#footer1,
+#footer2 {
+	display: flex;
+	justify-content: center;
+}
+
+#footer_menu {
+	display: flex;
+	gap: 60px;
+	max-width: 1200px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 50px;
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	li {
+		padding-top: 20px;
+		list-style: none;
+		text-align: start;
+	}
+}
+.footer_cat-title {
+	padding-bottom: 20px;
+}
+#footer_bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1400px;
+	width: 100%;
+	margin: 30px;
+	margin-left: 200px;
+	font-size: 13px;
+
+	a {
+		text-decoration: none;
+		color: black;
+		font-weight: 600;
+	}
+}
+#social {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 30px;
+}
+.socials {
+	display: flex;
+	padding: 0 20px;
+	align-items: center;
+	gap: 12px;
+	img {
+		width: 20px;
+	}
+	li {
+		list-style: none;
+	}
+}
+.language-button {
+	padding: 8px 10px;
+	text-align: center;
+
+	span {
+		padding: 0 5px;
+	}
+}
+.language-button:hover {
+	background-color: #f0f0f0;
+	border-radius: 8px;
 }
